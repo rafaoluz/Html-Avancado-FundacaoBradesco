@@ -1,0 +1,30 @@
+<!--Tag <FORM> Cria um formulário-->
+
+<!-- Atributo METHOD especifica a maneira de envio dos dados do formulário
+para o servidor Web-->
+
+<!--METHOD="GET" = É utilizado para respostas únicas como string de texto -->
+
+<!--METHOD="POST" = É mais utilizado porque permite a transmissão de uma 
+maior quantidade de dados no servidor Web-->
+
+<!-- A sintaxe fica <FORM ACTION="url" METHOD="get" ou "post">  -->
+
+<!--Objetos de um formulário TEXTO | SENHA | ÚNICA ESCOLHA | MULTIPLA ESCOLHA  -->
+
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Formulário</title>
+</head>
+<body>
+    <FORM ACTION="email@email.com" METHOD="get">
+		<P><FONT FACE="CALIBRI">Nome: <INPUT TYPE=TEXT  NAME="nome" SIZE="25" MAXLENGHT="50"></P>
+        <P>Senha: <INPUT TYPE="PASSWORD" NAME="senha" SIZE="25"></P>
+		<P>Estado: <INPUT TYPE=text NAME="uf" SIZE="2" VALUE="SP"></FONT></P>
+	</FORM>
+</body>
+</html>
+

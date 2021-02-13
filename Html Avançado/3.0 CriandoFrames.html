@@ -1,0 +1,29 @@
+<!-- Criando Frames com a TAG <FRAMESET>-->
+<!--SRC = Especifica a URL que deseja carregar um frame -->
+<!-- MARGINWIDTH = Especifica as margens direira e esquerda(largura) do conteudo em um frame. Seu valor é especificado em pixels-->
+<!-- MARGINHEIGHT = Especifica as margens superior e inferior do conteudo de um frame e seu valor especificado em pixels-->
+<!--SCROLLING = Adiciona uma barra de rolagem a um frame-->
+<!-- NORESIZE = Impede que o usuario redimensione um frame-->
+
+<!-- Abrir um frame em outra janela-->
+<!-- <A HREF="exemplo.html"TARGET="_blank">Clique Aqui</A>-->
+<!-- VALORES TARGET | _blank = Abre um link em nova janela | _self = Abre o link no mesmo frame | _parent = Carrega o frame
+na página principal | _top = Carrega a página no frame mais alto da pagina-->
+
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando a divisão de Frames</title>
+</head>
+<body>
+    <FRAMESET COLS="25%,*,25%">
+        <FRAME SRC="frame_a.html">
+        <FRAME SRC="frame_b.html">
+        <FRAME SRC="frame_c.html">
+    </FRAMESET>
+</body>
+</html>
+

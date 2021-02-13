@@ -1,0 +1,35 @@
+<!-- TAG Input e seus Atributos-->
+<!-- Type = Especifica o tipo de controle a ser criado. Se nada especificado o padrão é text-->
+
+<!--Value = Especifica o valor inicial do controle. É opcional com exceção de quando o TYPE é "radio"ou "checkbox"-->
+
+<!-- Name = Nomeia cada campo do seu formulário, para o script manipular os dados-->
+
+<!-- Maxlenght = Quando o valor de Type for "text" ou "password", eles estabelecem o número máximo de caracteres
+do campo. O valor padrão é limitado-->
+
+<!-- Src = Quando o valor Type for "image" este atributo especifica a localização da imagem 
+usada para decorar o botão enviar-->
+
+<!-- Checked = Quando TYPE tem o valor "radio" ou checkbox este
+atributo especifica significa que o botão está selecionado-->
+<!-- Size = Especifica o tamanho inicial do controle. A largura
+é dada em pixels, com exceção de quando o valor for "text" ou "password"
+Nestes casos , ovalor refere-se ao numero de caracteres-->
+
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Formulário</title>
+</head>
+<body>
+    <FORM ACTION="email@email.com" METHOD="get">
+		<P><FONT FACE="CALIBRI">Nome: <INPUT TYPE=TEXT  NAME="nome" SIZE="25" MAXLENGHT="50"></P>
+        <P>Senha: <INPUT TYPE="PASSWORD" NAME="senha" SIZE="25"></P>
+		<P>Estado: <INPUT TYPE=text NAME="uf" SIZE="2" VALUE="SP"></FONT></P>
+	</FORM>
+</body>
+</html>
+
